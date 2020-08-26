@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: white;
+    line-height: 1.6em;
+    color: black;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a{
+    text-decoration:none;
+    color: black;
+}
+
+
+nav  ul{
+    list-style: none;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+nav  ul li{
+    padding-left: 25px;
+    padding-right:25px ;
+    padding-top:10px ;
+    padding-bottom:10px ;
+}
+
+nav ul li:nth-child(1) {
+    margin-right: auto;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+nav ul li:nth-child(1) a{
+    color: rgb(7, 121, 7);
+}
+
+.pics{
+    width: 100%;
+    height: 300px;
+    background-image: url(drone12.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+p {
+    padding-top: 5%;
+    padding-right: 10%;
+    font-size: 40px;
+    color: white;
+    line-height: 1em;
+    position: sticky;
+}
+
+.inner{ 
+    padding-top: 5%;
+    text-align: center;
+    color:green;
+    font-weight: bold;
+}
+
+.inner2{
+    font-size: 30px;
+    font-family: Anaheim;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+div ul {
+    list-style-type: none;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+}
+
+div ul li{
+    padding-right: 20px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    width: 20%;
+}
+
+.ral{
+    text-align: center;
+    color: black;
+    padding-bottom: 10px;
+}
+
+#buzz{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,400px);
+    grid-gap: 4px;
+    grid-auto-rows:300px;
+    grid-auto-flow: dense;
+    justify-content: center;
+    padding: 50px;
+    background-color: rgb(46, 45, 45);
+}
+
+div ul.hmm {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div ul.hmm li{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
